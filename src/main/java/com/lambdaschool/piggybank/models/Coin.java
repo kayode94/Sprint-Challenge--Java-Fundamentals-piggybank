@@ -75,6 +75,7 @@ public class Coin
         return quantity;
     }
 
+    //Override toString()
     @Override
     public String toString() {
         return "Coin{" +
