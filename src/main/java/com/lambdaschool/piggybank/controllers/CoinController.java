@@ -37,7 +37,7 @@ public class CoinController
     }
 
     //http://localhost:2019/coins/all
-    // Creating the endpoint
+    // Creating the endpoints for piggybank
 
     @GetMapping(value="/coins/all", produces = "application/json")
     public ResponseEntity<?> listAllCoins()
