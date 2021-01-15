@@ -6,5 +6,5 @@ import org.springframework.data.repository.CrudRepository;
 //Coin repo
 public interface CoinRepository extends CrudRepository<Coin, Long>
 {
-    boolean test (Coin c);
+
 }
