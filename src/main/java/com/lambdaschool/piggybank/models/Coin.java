@@ -20,7 +20,7 @@ public class Coin
 
     }
 
-    // Generating my own constructor
+    // Generating my own constructor for Coin
     public Coin(String name, String nameplural, double value, int quantity)
     {
         this.name = name;
